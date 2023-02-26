@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={ logo } className="App-logo" alt="logo" />
         <p>
           Hello! This is my Webapp.io test site.
         </p>
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          This link takes you to the GitHub repository.
+          This -link- takes you to the GitHub repository.
         </a>
       </header>
     </div>
